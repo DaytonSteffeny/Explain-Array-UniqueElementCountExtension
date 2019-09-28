@@ -7,4 +7,4 @@ Sorting Arrays and Comparing the Elements- We first needed to sort these element
 The sorting of the arrays is done by using the ***let sorted =self.sorted(by: <)***. The function will sort the values from least to greatest and works with Ints and Strings.
 
 ## Comparing the Elements
-
+The comparing the elements array ways done with using different types of methods as a tuple. You could use a struct as well, but using a tuple will enable you to store both of the elements from before and create a current value. The function ***let result = sorted.reduce(start)*** is the tuple start. The reduce in this function reuturns the current element and the sorted is called from above function. We use a ***uniqueCount += 1*** to go up by one in the counting and then we return the currentElement and the uniqueCount, then returning result the the end.
